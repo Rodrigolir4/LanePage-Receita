@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+main{
+    text-align: justify;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 100px 0px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#imagem-topo img{
+    width: 100%;
+    border-radius: 20px;
+}
+#sessao-01 h1{
+    font-size: 40px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#sessao-01 p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+#lista-01{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 20px;
+}
+#lista-01 h3{
+    color: #a8126e;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul li, ol li{
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+h2{
+    color: maroon;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#sessao-02{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+#sessao-03{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+table{
+    width: 100%;
+    padding: 30px;
+    width: 100%;
+    border-spacing: 0; 
+}
+td{
+    padding: 10px 0 10px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+.valor-calorias{
+    color: maroon;
+}
